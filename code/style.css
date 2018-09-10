@@ -2,7 +2,21 @@
     display: none;
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 0;
   }
+
+.video-text {
+      position: absolute;
+      text-align: center;
+      top: 2%;
+      width: 100%;
+      z-index: 1;
+      font-family: 'Noto Serif KR', sans-serif;
+      font-size: 30px;
+      color: lightpink;
+      opacity: 0.8;
+}
 
 
 @media (max-width: 360px) {
