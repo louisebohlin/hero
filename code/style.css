@@ -1,0 +1,25 @@
+.video-mobile, .video-tablet, .video-desktop {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+
+@media (max-width: 360px) {
+  .video-mobile {
+    display: block;
+  }
+}
+
+
+@media (min-width: 360px) and (max-width: 720px) {
+  .video-tablet {
+    display: block;
+  }
+}
+
+@media (min-width: 720px) {
+  .video-desktop {
+    display: block;
+  }
+}
